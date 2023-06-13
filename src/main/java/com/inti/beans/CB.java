@@ -9,6 +9,10 @@ import javax.persistence.Entity;
 @DiscriminatorValue("2")
 public class CB extends Paiement {
 	
+	/**
+	 * test github
+	 */
+	
 	private int numeroCarte;
 	private LocalDate dateExpiration;
 	
